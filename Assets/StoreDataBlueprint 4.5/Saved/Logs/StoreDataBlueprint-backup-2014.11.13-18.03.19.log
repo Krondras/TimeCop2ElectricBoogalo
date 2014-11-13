@@ -1,0 +1,1450 @@
+﻿Log file open, 11/12/14 17:10:59
+LogInit:Display: Running engine for game: StoreDataBlueprint
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.12-22.10.59:725][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.12-22.10.59:761][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.12-22.10.59:778][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.12-22.10.59:794][  0]LogInit: Object subsystem initialized
+[2014.11.12-22.10.59:798][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.12-22.10.59:798][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.12-22.10.59:798][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.11.12-22.10.59:798][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.12-22.10.59:799][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.12-22.10.59:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.12-22.10.59:849][  0]LogInit: Computer: 1984
+[2014.11.12-22.10.59:849][  0]LogInit: User: John
+[2014.11.12-22.10.59:850][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.12-22.10.59:850][  0]LogInit: High frequency timer resolution =2.533388 MHz
+[2014.11.12-22.10.59:850][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=8192.0GB
+[2014.11.12-22.10.59:851][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-22.10.59:851][  0]LogMemory: Process Physical Memory: 66.13 MB used, 66.13 MB peak
+[2014.11.12-22.10.59:851][  0]LogMemory: Process Virtual Memory: 41.90 MB used, 41.90 MB peak
+[2014.11.12-22.10.59:851][  0]LogMemory: Physical Memory: 4457.73 MB used, 6026.31 MB total
+[2014.11.12-22.10.59:851][  0]LogMemory: Virtual Memory: 280.45 MB used, 8388608.00 MB total
+[2014.11.12-22.10.59:908][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.11.12-22.10.59:908][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.11.12-22.10.59:908][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.12-22.10.59:914][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.11.12-22.10.59:940][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.12-22.10.59:983][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.12-22.11.00:161][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.12-22.11.05:760][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-22.11.06:271][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-22.11.06:325][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.12-22.11.06:366][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/John/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.12-22.11.06:366][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.12-22.11.06:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.12-22.11.06:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.12-22.11.06:447][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.12-22.11.06:459][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.12-22.11.06:664][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.12-22.11.06:664][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.12-22.11.06:918][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.12-22.11.06:921][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.12-22.11.07:116][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.12-22.11.07:931][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.12-22.11.08:152][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Binaries/Win64. Error: 0
+[2014.11.12-22.11.08:287][  0]SourceControl: Info Source control is disabled
+[2014.11.12-22.11.08:287][  0]SourceControl: Info Source control is disabled
+[2014.11.12-22.11.08:293][  0]SourceControl: Info Source control is disabled
+[2014.11.12-22.11.08:398][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.12-22.11.08:398][  0]LogUObjectAllocator: 4803544 out of 0 bytes used by permanent object pool.
+[2014.11.12-22.11.08:454][  0]LogEngine: Initializing Engine...
+[2014.11.12-22.11.08:592][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.12-22.11.08:606][  0]LogInit: FAudioDevice initialized.
+[2014.11.12-22.11.08:625][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.12-22.11.08:675][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/John/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.12-22.11.08:679][  0]LogInit: Texture streaming: Enabled
+[2014.11.12-22.11.08:721][  0]LogInit: Transaction tracking system initialized
+[2014.11.12-22.11.08:808][  0]BlueprintLog: New page: Editor Load
+[2014.11.12-22.11.08:836][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2014.11.12-22.11.08:836][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.12-22.11.09:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-22.11.09:887][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-22.11.10:103][  0]LogConsoleResponse:Display: 
+[2014.11.12-22.11.10:331][  0]SourceControl: Info Source control is disabled
+[2014.11.12-22.11.10:331][  0]Cmd: MAP LOAD FILE="../../../../../../Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-22.11.10:411][  0]LightingResults: New page: Lighting Build
+[2014.11.12-22.11.10:423][  0]MapCheck: New page: Map Check
+[2014.11.12-22.11.10:423][  0]LightingResults: New page: Lighting Build
+[2014.11.12-22.11.10:488][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B2C5A80
+[2014.11.12-22.11.11:692][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-22.11.11:692][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.12-22.11.11:692][  0]Cmd: MAP CHECKDEP
+[2014.11.12-22.11.11:693][  0]MapCheck: New page: Example_Map - Nov 12, 2014, 12:11:11 PM
+[2014.11.12-22.11.11:821][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.274ms to complete.
+[2014.11.12-22.11.11:821][  0]LogFileHelpers: Loading map 'Example_Map' took 1.490
+[2014.11.12-22.11.12:007][  0]LogCollectionManager: Loaded 0 collections in 0.001943 seconds
+[2014.11.12-22.11.12:403][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.12-22.11.12:467][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.12-22.11.12:503][  0]LogLoad: Full Startup: 15.67 seconds (BP compile: 0.11 seconds)
+[2014.11.12-22.11.12:854][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.12-22.11.13:129][  0]LogRenderer:Warning: Reallocating scene render targets to support 1048x944.
+[2014.11.12-22.11.14:831][  5]LogAssetRegistry: Asset discovery search completed in 6.0050 seconds
+[2014.11.12-22.12.31:436][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.11.12-22.12.31:437][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.12-22.12.38:907][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.12-22.15.32:861][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.32:861][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:021][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:022][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:022][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:022][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:023][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:023][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:023][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:023][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:024][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:024][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:024][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:024][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:025][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:025][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:026][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:026][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.15.33:026][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:221][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:221][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:221][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:221][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:221][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:221][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.18.44:222][876]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.21.18:040][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.12-22.21.18:040][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.11.12-22.21.18:134][797]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.094
+[2014.11.12-22.21.18:196][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.12-22.21.18:309][797]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.11.12-22.21.18:309][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.12-22.21.22:705][797]LogSavePackage: Save=3812.303467ms
+[2014.11.12-22.21.22:725][797]LogSavePackage: Moving '../../../../../../Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Saved/MyCharacter_Auto1C1C0D292419737D07E3DD68246C6CD4A.tmp' to '../../../../../../Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2014.11.12-22.21.22:867][797]LogFileHelpers: Auto-saving content packages took 4.733
+[2014.11.12-22.23.09:888][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.12-22.23.09:888][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.11.12-22.23.51:296][109]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.12-22.28.27:369][515]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.12-22.28.27:370][515]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.12-22.28.27:371][515]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallArrayFunction_280.EdGraphPin_7643"''
+[2014.11.12-22.29.20:223][170]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-22.29.20:376][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.12-22.29.20:376][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.11.12-22.29.20:376][170]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.12-22.29.20:838][170]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.12-22.29.20:898][170]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.11.12-22.29.21:050][170]LogPlayLevel: PIE:  Blueprint regeneration took 827 ms (3 blueprints)
+[2014.11.12-22.29.21:054][170]PIE: New page: PIE session: Example_Map (Nov 12, 2014, 12:29:21 PM)
+[2014.11.12-22.29.21:098][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043904s)
+[2014.11.12-22.29.21:098][170]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2014.11.12-22.29.21:099][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.044836s)
+[2014.11.12-22.29.21:284][170]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.11.12-22.29.21:298][170]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.11.12-22.29.21:299][170]LogWorld: Game class is 'MyGame_C'
+[2014.11.12-22.29.21:332][170]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.12-22.29.21:334][170]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.12-17.29.21
+[2014.11.12-22.29.21:336][170]LogWorld: Bringing up level for play took: 0.003716
+[2014.11.12-22.29.21:401][170]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.11.12-22.29.21:408][170]LogInit: WinSock: I am 1984 (10.40.98.47:0)
+[2014.11.12-22.29.21:411][170]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2014.11.12-22.29.21:411][170]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.122
+[2014.11.12-22.29.21:417][170]PIE: New page: PIE session: Example_Map (Nov 12, 2014, 12:29:21 PM)
+[2014.11.12-22.29.21:496][170]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.11.12-22.29.21:496][170]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.11.12-22.29.21:498][170]LogNet: Game client on port 7777, rate 10000
+[2014.11.12-22.29.21:505][170]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.217
+[2014.11.12-22.29.21:509][170]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.11.12-22.29.21:509][170]LogNet: Open Example_Map 11/12/14 17:29:21 127.0.0.1
+[2014.11.12-22.29.21:509][170]LogNet: Added client connection.  Remote address = 127.0.0.1:58653
+[2014.11.12-22.29.21:510][170]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.11.12-22.29.21:511][170]LogNet: Remote platform little endian=1
+[2014.11.12-22.29.21:511][170]LogNet: This platform little endian=1
+[2014.11.12-22.29.22:514][171]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.11.12-22.29.22:514][171]LogNet: Client netspeed is 10000
+[2014.11.12-22.29.22:517][171]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/MyGame.MyGame_C)
+[2014.11.12-22.29.22:578][171]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/MyGame.MyGame_C
+[2014.11.12-22.29.22:581][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.12-22.29.22:623][171]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020395BC0
+[2014.11.12-22.29.22:633][171]Cmd: MEM
+[2014.11.12-22.29.22:676][171]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-22.29.22:676][171]LogMemory: Process Physical Memory: 767.08 MB used, 777.61 MB peak
+[2014.11.12-22.29.22:676][171]LogMemory: Process Virtual Memory: 705.74 MB used, 718.89 MB peak
+[2014.11.12-22.29.22:676][171]LogMemory: Physical Memory: 5189.02 MB used, 6026.31 MB total
+[2014.11.12-22.29.22:677][171]LogMemory: Virtual Memory: 1224.54 MB used, 8388608.00 MB total
+[2014.11.12-22.29.22:677][171]LogMemory: 
+[2014.11.12-22.29.22:677][171]Allocator Stats for TBB: (not implemented)
+[2014.11.12-22.29.22:684][171]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.11.12-22.29.22:723][171]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.11.12-22.29.22:726][171]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.12-17.29.22
+[2014.11.12-22.29.22:727][171]LogWorld: Bringing up level for play took: 0.001891
+[2014.11.12-22.29.22:778][172]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.11.12-22.29.22:784][172]LogNet: Join succeeded: 257
+[2014.11.12-22.29.23:963][184]LogBlueprintUserMessages: Client 1: 11
+[2014.11.12-22.29.25:210][197]LogBlueprintUserMessages: Client 1: 24
+[2014.11.12-22.29.26:185][207]LogBlueprintUserMessages: Client 1: 34
+[2014.11.12-22.29.27:055][216]LogBlueprintUserMessages: Client 1: 43
+[2014.11.12-22.29.27:839][224]LogBlueprintUserMessages: Client 1: 51
+[2014.11.12-22.29.28:709][233]LogBlueprintUserMessages: Client 1: 60
+[2014.11.12-22.29.29:479][241]LogBlueprintUserMessages: Client 1: 68
+[2014.11.12-22.29.30:350][250]LogBlueprintUserMessages: Client 1: 77
+[2014.11.12-22.29.31:116][258]LogBlueprintUserMessages: Client 1: 85
+[2014.11.12-22.29.42:140][372]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:244][373]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:332][374]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:428][375]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:529][376]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:620][377]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:620][377]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:719][378]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:719][378]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:828][379]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:828][379]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:924][380]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:924][380]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.42:926][380]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.42:926][380]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:020][381]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:020][381]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:022][381]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:022][381]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:119][382]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:119][382]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:120][382]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:120][382]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:212][383]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:213][383]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:214][383]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:214][383]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:308][384]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:308][384]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:309][384]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:309][384]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:408][385]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:408][385]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:409][385]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:409][385]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:502][386]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:502][386]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:504][386]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:504][386]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:598][387]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:598][387]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:601][387]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:601][387]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:692][388]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:692][388]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:693][388]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:693][388]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:791][389]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:792][389]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:793][389]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:793][389]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:894][390]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:894][390]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:896][390]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:896][390]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:992][391]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:992][391]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.43:994][391]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.43:994][391]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:095][392]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:095][392]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:097][392]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:097][392]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:183][393]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:183][393]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:185][393]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:185][393]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:284][394]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:284][394]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:288][394]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:288][394]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:375][395]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:375][395]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:376][395]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:376][395]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:473][396]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:473][396]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:475][396]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:475][396]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:568][397]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:568][397]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:570][397]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:663][398]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:663][398]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:665][398]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:763][399]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:763][399]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:764][399]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:858][400]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:858][400]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:859][400]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.44:952][401]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:952][401]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.44:953][401]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:059][402]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:059][402]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:061][402]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:144][403]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:144][403]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:146][403]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:242][404]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:242][404]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:244][404]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:336][405]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:336][405]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:337][405]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:433][406]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:434][406]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:435][406]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:531][407]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:531][407]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:532][407]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:533][407]LogBlueprintUserMessages: Client 1: BANG
+[2014.11.12-22.29.45:627][408]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:627][408]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:629][408]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:725][409]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:725][409]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:726][409]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:819][410]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:819][410]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:820][410]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.45:919][411]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:919][411]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.45:920][411]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:021][412]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:021][412]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:025][412]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:112][413]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:113][413]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:114][413]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:206][414]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:206][414]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:207][414]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:307][415]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:307][415]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:311][415]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:398][416]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:398][416]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:400][416]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:495][417]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:495][417]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:496][417]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:592][418]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:592][418]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:594][418]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:687][419]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:688][419]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:691][419]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:786][420]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:786][420]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:788][420]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:788][420]LogBlueprintUserMessages: Client 1: BANG
+[2014.11.12-22.29.46:879][421]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:879][421]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:880][421]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.46:975][422]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:976][422]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.46:978][422]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:071][423]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:071][423]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:076][423]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:165][424]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:165][424]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:166][424]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:260][425]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:260][425]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:262][425]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:357][426]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:357][426]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:359][426]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:488][427]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:488][427]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:490][427]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:570][428]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:570][428]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:571][428]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:666][429]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:667][429]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:668][429]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:763][430]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:763][430]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:764][430]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:764][430]LogBlueprintUserMessages: Client 1: BANG
+[2014.11.12-22.29.47:859][431]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:860][431]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:861][431]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.47:953][432]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:954][432]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.47:955][432]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:056][433]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:056][433]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:058][433]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:146][434]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:146][434]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:148][434]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:244][435]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:245][435]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:245][435]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:339][436]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:339][436]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:341][436]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:436][437]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:436][437]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:439][437]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:535][438]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:535][438]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:536][438]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:626][439]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:626][439]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:627][439]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:627][439]LogBlueprintUserMessages: Client 1: BANG
+[2014.11.12-22.29.48:721][440]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:722][440]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:723][440]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:818][441]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:819][441]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:821][441]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.48:913][442]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:913][442]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.48:914][442]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:010][443]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:011][443]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:012][443]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:110][444]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:110][444]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:111][444]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:207][445]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:207][445]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:209][445]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:305][446]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:306][446]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:308][446]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:397][447]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:398][447]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:399][447]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:399][447]LogBlueprintUserMessages: Client 1: BANG
+[2014.11.12-22.29.49:493][448]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:493][448]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:494][448]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:592][449]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:592][449]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:595][449]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:686][450]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:686][450]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:687][450]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:781][451]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:781][451]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:783][451]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:882][452]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:883][452]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:884][452]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.49:978][453]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:978][453]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.49:979][453]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.50:075][454]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.50:075][454]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.50:076][454]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.50:172][455]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.50:172][455]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.29.50:174][455]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.29.50:556][456]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_2] [PlayerController_2]. ChIndex == 0. Closing connection.
+[2014.11.12-22.29.50:557][456]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: PlayerController_2, Owner: PlayerController_2, Channels: 11, RemoteAddr: 127.0.0.1:58653, Time: 2014.11.12-22.29.50
+[2014.11.12-22.29.50:557][456]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2014.11.12-22.29.50:557][456]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_3] [PlayerController_3]. ChIndex == 0. Closing connection.
+[2014.11.12-22.29.50:557][456]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: PlayerController_3, Owner: PlayerController_3, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2014.11.12-22.29.50
+[2014.11.12-22.29.50:557][456]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2014.11.12-22.29.50:560][456]LogExit: GameNetDriver None shut down
+[2014.11.12-22.29.50:560][456]LogExit: GameNetDriver None shut down
+[2014.11.12-22.29.50:616][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B1FE20
+[2014.11.12-22.29.50:616][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CD904A0
+[2014.11.12-22.30.00:135][576]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.12-22.30.08:832][662]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-22.30.08:997][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.12-22.30.08:997][662]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.12-22.30.09:320][662]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.11.12-22.30.09:415][662]LogPlayLevel: PIE:  Blueprint regeneration took 583 ms (2 blueprints)
+[2014.11.12-22.30.09:417][662]PIE: New page: PIE session: Example_Map (Nov 12, 2014, 12:30:09 PM)
+[2014.11.12-22.30.09:445][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027837s)
+[2014.11.12-22.30.09:446][662]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2014.11.12-22.30.09:446][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.028710s)
+[2014.11.12-22.30.09:484][662]LogWorld: Game class is 'MyGame_C'
+[2014.11.12-22.30.09:485][662]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.12-22.30.09:487][662]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.12-17.30.09
+[2014.11.12-22.30.09:487][662]LogWorld: Bringing up level for play took: 0.001557
+[2014.11.12-22.30.09:489][662]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.11.12-22.30.09:490][662]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2014.11.12-22.30.09:490][662]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.202
+[2014.11.12-22.30.09:492][662]PIE: New page: PIE session: Example_Map (Nov 12, 2014, 12:30:09 PM)
+[2014.11.12-22.30.09:539][662]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.11.12-22.30.09:540][662]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.11.12-22.30.09:540][662]LogNet: Game client on port 7777, rate 10000
+[2014.11.12-22.30.09:547][662]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.259
+[2014.11.12-22.30.09:549][662]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.11.12-22.30.09:549][662]LogNet: Open Example_Map 11/12/14 17:30:09 127.0.0.1
+[2014.11.12-22.30.09:549][662]LogNet: Added client connection.  Remote address = 127.0.0.1:60890
+[2014.11.12-22.30.09:549][662]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.11.12-22.30.09:549][662]LogNet: Remote platform little endian=1
+[2014.11.12-22.30.09:549][662]LogNet: This platform little endian=1
+[2014.11.12-22.30.10:370][663]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.11.12-22.30.10:370][663]LogNet: Client netspeed is 10000
+[2014.11.12-22.30.10:371][663]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/MyGame.MyGame_C)
+[2014.11.12-22.30.10:438][663]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/MyGame.MyGame_C
+[2014.11.12-22.30.10:438][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.12-22.30.10:481][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AC22FC0
+[2014.11.12-22.30.10:485][663]Cmd: MEM
+[2014.11.12-22.30.10:524][663]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-22.30.10:524][663]LogMemory: Process Physical Memory: 791.72 MB used, 808.37 MB peak
+[2014.11.12-22.30.10:524][663]LogMemory: Process Virtual Memory: 729.50 MB used, 745.27 MB peak
+[2014.11.12-22.30.10:524][663]LogMemory: Physical Memory: 5157.57 MB used, 6026.31 MB total
+[2014.11.12-22.30.10:524][663]LogMemory: Virtual Memory: 1244.69 MB used, 8388608.00 MB total
+[2014.11.12-22.30.10:524][663]LogMemory: 
+[2014.11.12-22.30.10:524][663]Allocator Stats for TBB: (not implemented)
+[2014.11.12-22.30.10:525][663]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.11.12-22.30.10:559][663]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.11.12-22.30.10:563][663]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.12-17.30.10
+[2014.11.12-22.30.10:563][663]LogWorld: Bringing up level for play took: 0.001852
+[2014.11.12-22.30.10:625][664]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.11.12-22.30.10:627][664]LogNet: Join succeeded: 259
+[2014.11.12-22.30.12:848][687]LogBlueprintUserMessages: Client 1: 22
+[2014.11.12-22.30.13:612][695]LogBlueprintUserMessages: Client 1: 30
+[2014.11.12-22.30.14:119][700]LogBlueprintUserMessages: Client 1: 35
+[2014.11.12-22.30.14:383][703]LogBlueprintUserMessages: Client 1: 38
+[2014.11.12-22.30.14:480][704]LogBlueprintUserMessages: Client 1: 39
+[2014.11.12-22.30.14:667][706]LogBlueprintUserMessages: Client 1: 41
+[2014.11.12-22.30.14:869][708]LogBlueprintUserMessages: Client 1: 43
+[2014.11.12-22.30.16:115][721]LogBlueprintUserMessages: Client 1: 56
+[2014.11.12-22.30.17:365][734]LogBlueprintUserMessages: Client 1: 69
+[2014.11.12-22.30.18:616][747]LogBlueprintUserMessages: Client 1: 82
+[2014.11.12-22.30.19:872][760]LogBlueprintUserMessages: Client 1: 95
+[2014.11.12-22.30.26:495][829]LogCharacterMovement: MyCharacter_C_3 is stuck and failed to move!
+[2014.11.12-22.30.29:976][865]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:073][866]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:174][867]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:266][868]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:363][869]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:459][870]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:459][870]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:553][871]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:553][871]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:651][872]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:651][872]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:745][873]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:745][873]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:746][873]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.30:746][873]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.30:843][874]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:843][874]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:846][874]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.30:846][874]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.30:939][875]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:939][875]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.30:942][875]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.30:942][875]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:034][876]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:034][876]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:036][876]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:039][876]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:131][877]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:131][877]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:135][877]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:135][877]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:225][878]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:225][878]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:226][878]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:226][878]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:324][879]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:324][879]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:327][879]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:327][879]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:418][880]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:418][880]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:420][880]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:421][880]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:513][881]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:513][881]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:515][881]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:516][881]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:614][882]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:614][882]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:616][882]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:616][882]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:705][883]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:705][883]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:707][883]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:707][883]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:802][884]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:802][884]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:804][884]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:804][884]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:898][885]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:899][885]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:902][885]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:902][885]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:997][886]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:997][886]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.31:999][886]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.31:999][886]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:090][887]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:090][887]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:093][887]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:093][887]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:184][888]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:184][888]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:187][888]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:187][888]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:283][889]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:283][889]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:285][889]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:286][889]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:377][890]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:377][890]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:378][890]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:378][890]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:474][891]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:474][891]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:476][891]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:476][891]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:574][892]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:574][892]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:581][892]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:666][893]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:666][893]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:667][893]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:760][894]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:760][894]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:761][894]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:858][895]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:858][895]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:860][895]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.32:954][896]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:954][896]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.32:956][896]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:050][897]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:050][897]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:052][897]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:150][898]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:150][898]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:151][898]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:248][899]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:248][899]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:249][899]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:347][900]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:347][900]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:349][900]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:441][901]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:441][901]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:444][901]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:535][902]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:535][902]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:536][902]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:629][903]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:629][903]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:630][903]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:725][904]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:725][904]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:727][904]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:822][905]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:822][905]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:826][905]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.33:917][906]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:917][906]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.33:918][906]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:016][907]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:016][907]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:018][907]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:114][908]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:114][908]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:115][908]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:211][909]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:211][909]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:213][909]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:308][910]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:308][910]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:310][910]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:403][911]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:403][911]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:404][911]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:497][912]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:498][912]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:498][912]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:594][913]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:594][913]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:597][913]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:597][913]LogBlueprintUserMessages: Client 1: 22
+[2014.11.12-22.30.34:691][914]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:691][914]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:693][914]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:794][915]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:795][915]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:802][915]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:882][916]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:882][916]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:885][916]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.34:997][917]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:997][917]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.34:998][917]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:075][918]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:075][918]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:076][918]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:173][919]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:173][919]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:174][919]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:271][920]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:272][920]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:276][920]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:362][921]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:362][921]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:364][921]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:365][921]LogBlueprintUserMessages: Client 1: 30
+[2014.11.12-22.30.35:461][922]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:461][922]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:465][922]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:555][923]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:555][923]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:556][923]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:650][924]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:650][924]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:651][924]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:747][925]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:748][925]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:749][925]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:847][926]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:847][926]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:848][926]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.35:848][926]LogBlueprintUserMessages: Client 1: 35
+[2014.11.12-22.30.35:943][927]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:943][927]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.35:946][927]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:038][928]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:038][928]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:039][928]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:135][929]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:135][929]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:138][929]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:138][929]LogBlueprintUserMessages: Client 1: 38
+[2014.11.12-22.30.36:231][930]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:231][930]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:233][930]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:234][930]LogBlueprintUserMessages: Client 1: 39
+[2014.11.12-22.30.36:326][931]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:326][931]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:328][931]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:422][932]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:422][932]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:423][932]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:423][932]LogBlueprintUserMessages: Client 1: 41
+[2014.11.12-22.30.36:517][933]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:517][933]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:518][933]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:614][934]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:614][934]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:615][934]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:616][934]LogBlueprintUserMessages: Client 1: 43
+[2014.11.12-22.30.36:713][935]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:714][935]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:717][935]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:805][936]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:805][936]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:807][936]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:904][937]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:904][937]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:905][937]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.36:999][938]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.36:999][938]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:001][938]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:093][939]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:094][939]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:095][939]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:189][940]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:189][940]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:190][940]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:285][941]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:285][941]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:286][941]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:381][942]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:381][942]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:382][942]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:480][943]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:480][943]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:481][943]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:573][944]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:573][944]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:574][944]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:680][945]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:680][945]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:682][945]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:792][946]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:793][946]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:795][946]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:888][947]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:888][947]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:889][947]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.37:889][947]LogBlueprintUserMessages: Client 1: 56
+[2014.11.12-22.30.37:984][948]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:984][948]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.37:985][948]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:080][949]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:080][949]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:080][949]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:178][950]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:178][950]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:181][950]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:271][951]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:271][951]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:272][951]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:367][952]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:367][952]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:368][952]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:463][953]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:464][953]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:465][953]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:560][954]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:560][954]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:561][954]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:655][955]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:655][955]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:656][955]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:752][956]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:753][956]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:756][956]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:851][957]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:851][957]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:852][957]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.38:948][958]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:948][958]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.38:951][958]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:046][959]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:046][959]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:047][959]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:139][960]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:139][960]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:141][960]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:141][960]LogBlueprintUserMessages: Client 1: 69
+[2014.11.12-22.30.39:236][961]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:236][961]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:236][961]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:333][962]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:333][962]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:335][962]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:430][963]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:430][963]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:432][963]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:525][964]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:525][964]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:527][964]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:622][965]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:622][965]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:623][965]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:717][966]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:718][966]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:718][966]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:814][967]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:814][967]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:817][967]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.39:910][968]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:910][968]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.39:911][968]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:013][969]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:013][969]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:016][969]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:105][970]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:106][970]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:108][970]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:200][971]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:201][971]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:204][971]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:296][972]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:296][972]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:299][972]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:392][973]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:393][973]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:395][973]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:395][973]LogBlueprintUserMessages: Client 1: 82
+[2014.11.12-22.30.40:488][974]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:488][974]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:491][974]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:587][975]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:587][975]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:588][975]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:682][976]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:682][976]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:683][976]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:776][977]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:776][977]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:780][977]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:872][978]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:872][978]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:874][978]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.40:971][979]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:971][979]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.40:976][979]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:062][980]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:062][980]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:063][980]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:159][981]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:160][981]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:162][981]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:254][982]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:254][982]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:255][982]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:351][983]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:351][983]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:353][983]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:453][984]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:453][984]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:457][984]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:543][985]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:543][985]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.30.41:545][985]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.30.41:870][986]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.11.12-22.30.41:870][986]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:60890, Time: 2014.11.12-22.30.41
+[2014.11.12-22.30.41:870][986]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2014.11.12-22.30.41:870][986]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.11.12-22.30.41:870][986]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2014.11.12-22.30.41
+[2014.11.12-22.30.41:870][986]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2014.11.12-22.30.41:872][986]LogExit: GameNetDriver None shut down
+[2014.11.12-22.30.41:872][986]LogExit: GameNetDriver None shut down
+[2014.11.12-22.30.41:872][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003417D760
+[2014.11.12-22.30.41:930][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BBC8C20
+[2014.11.12-22.31.38:233][777]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.12-22.31.46:969][873]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.12-22.31.47:098][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.12-22.31.47:098][873]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.12-22.31.47:401][873]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.11.12-22.31.47:503][873]LogPlayLevel: PIE:  Blueprint regeneration took 533 ms (2 blueprints)
+[2014.11.12-22.31.47:506][873]PIE: New page: PIE session: Example_Map (Nov 12, 2014, 12:31:47 PM)
+[2014.11.12-22.31.47:539][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033464s)
+[2014.11.12-22.31.47:540][873]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2014.11.12-22.31.47:540][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.034450s)
+[2014.11.12-22.31.47:577][873]LogWorld: Game class is 'MyGame_C'
+[2014.11.12-22.31.47:579][873]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.12-22.31.47:580][873]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.12-17.31.47
+[2014.11.12-22.31.47:580][873]LogWorld: Bringing up level for play took: 0.001587
+[2014.11.12-22.31.47:583][873]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.11.12-22.31.47:583][873]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2014.11.12-22.31.47:583][873]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.292
+[2014.11.12-22.31.47:586][873]PIE: New page: PIE session: Example_Map (Nov 12, 2014, 12:31:47 PM)
+[2014.11.12-22.31.47:632][873]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.11.12-22.31.47:632][873]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.11.12-22.31.47:633][873]LogNet: Game client on port 7777, rate 10000
+[2014.11.12-22.31.47:641][873]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.349
+[2014.11.12-22.31.47:643][873]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.11.12-22.31.47:643][873]LogNet: Open Example_Map 11/12/14 17:31:47 127.0.0.1
+[2014.11.12-22.31.47:643][873]LogNet: Added client connection.  Remote address = 127.0.0.1:50613
+[2014.11.12-22.31.47:643][873]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.11.12-22.31.47:643][873]LogNet: Remote platform little endian=1
+[2014.11.12-22.31.47:643][873]LogNet: This platform little endian=1
+[2014.11.12-22.31.48:467][874]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.11.12-22.31.48:468][874]LogNet: Client netspeed is 10000
+[2014.11.12-22.31.48:469][874]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/MyGame.MyGame_C)
+[2014.11.12-22.31.48:538][874]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/MyGame.MyGame_C
+[2014.11.12-22.31.48:538][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.12-22.31.48:576][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000277FEFC0
+[2014.11.12-22.31.48:580][874]Cmd: MEM
+[2014.11.12-22.31.48:619][874]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-22.31.48:619][874]LogMemory: Process Physical Memory: 842.47 MB used, 857.89 MB peak
+[2014.11.12-22.31.48:619][874]LogMemory: Process Virtual Memory: 778.88 MB used, 796.09 MB peak
+[2014.11.12-22.31.48:619][874]LogMemory: Physical Memory: 5211.39 MB used, 6026.31 MB total
+[2014.11.12-22.31.48:619][874]LogMemory: Virtual Memory: 1295.21 MB used, 8388608.00 MB total
+[2014.11.12-22.31.48:619][874]LogMemory: 
+[2014.11.12-22.31.48:619][874]Allocator Stats for TBB: (not implemented)
+[2014.11.12-22.31.48:619][874]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.11.12-22.31.48:652][874]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.11.12-22.31.48:656][874]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 60) at 2014.11.12-17.31.48
+[2014.11.12-22.31.48:656][874]LogWorld: Bringing up level for play took: 0.001586
+[2014.11.12-22.31.48:703][875]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.11.12-22.31.48:705][875]LogNet: Join succeeded: 261
+[2014.11.12-22.31.50:238][891]LogBlueprintUserMessages: Client 1: 15
+[2014.11.12-22.31.51:198][901]LogBlueprintUserMessages: Client 1: 25
+[2014.11.12-22.31.52:090][910]LogBlueprintUserMessages: Client 1: 34
+[2014.11.12-22.31.52:967][919]LogBlueprintUserMessages: Client 1: 43
+[2014.11.12-22.31.53:842][928]LogBlueprintUserMessages: Client 1: 52
+[2014.11.12-22.31.54:708][937]LogBlueprintUserMessages: Client 1: 61
+[2014.11.12-22.31.55:571][946]LogBlueprintUserMessages: Client 1: 70
+[2014.11.12-22.31.56:435][955]LogBlueprintUserMessages: Client 1: 79
+[2014.11.12-22.31.57:303][964]LogBlueprintUserMessages: Client 1: 88
+[2014.11.12-22.31.57:870][970]LogCharacterMovement: MyCharacter_C_3 is stuck and failed to move!
+[2014.11.12-22.31.58:161][973]LogBlueprintUserMessages: Client 1: 97
+[2014.11.12-22.32.05:745][ 52]LogCharacterMovement: MyCharacter_C_3 is stuck and failed to move!
+[2014.11.12-22.32.06:991][ 65]LogCharacterMovement: MyCharacter_C_3 is stuck and failed to move!
+[2014.11.12-22.32.08:056][ 76]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:155][ 77]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:246][ 78]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:344][ 79]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:439][ 80]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:536][ 81]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:634][ 82]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:634][ 82]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:728][ 83]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:728][ 83]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:826][ 84]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:826][ 84]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:827][ 84]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.08:828][ 84]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.08:921][ 85]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:921][ 85]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.08:926][ 85]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.08:927][ 85]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:015][ 86]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:015][ 86]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:017][ 86]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:017][ 86]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:118][ 87]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:118][ 87]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:120][ 87]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:120][ 87]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:207][ 88]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:207][ 88]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:208][ 88]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:209][ 88]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:306][ 89]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:306][ 89]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:307][ 89]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:307][ 89]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:400][ 90]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:400][ 90]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:404][ 90]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:406][ 90]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:496][ 91]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:496][ 91]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:498][ 91]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:498][ 91]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:598][ 92]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:598][ 92]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:601][ 92]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:602][ 92]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:687][ 93]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:688][ 93]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:689][ 93]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:689][ 93]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:784][ 94]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:784][ 94]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:785][ 94]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:785][ 94]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:880][ 95]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:880][ 95]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:885][ 95]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:885][ 95]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:975][ 96]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:976][ 96]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.09:977][ 96]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.09:977][ 96]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:077][ 97]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:077][ 97]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:081][ 97]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:081][ 97]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:167][ 98]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:167][ 98]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:168][ 98]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:168][ 98]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:264][ 99]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:264][ 99]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:265][ 99]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:265][ 99]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:360][100]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:360][100]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:367][100]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:456][101]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:456][101]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:457][101]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:557][102]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:557][102]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:561][102]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:647][103]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:647][103]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:648][103]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:745][104]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:745][104]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:746][104]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:839][105]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:839][105]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:840][105]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.10:935][106]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:935][106]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.10:936][106]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:039][107]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:039][107]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:040][107]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:127][108]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:127][108]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:130][108]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:225][109]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:226][109]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:226][109]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:320][110]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:320][110]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:325][110]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:416][111]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:416][111]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:418][111]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:517][112]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:517][112]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:521][112]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:608][113]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:608][113]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:610][113]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:706][114]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:706][114]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:707][114]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:708][114]LogBlueprintUserMessages: Client 1: 15
+[2014.11.12-22.32.11:708][114]LogBlueprintUserMessages: Client 1: NO LONGER RECORDING
+[2014.11.12-22.32.11:799][115]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:799][115]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:800][115]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:895][116]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:895][116]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:896][116]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.11:992][117]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:992][117]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.11:994][117]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:087][118]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:087][118]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:088][118]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:184][119]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:184][119]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:187][119]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:280][120]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:280][120]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:287][120]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:375][121]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:376][121]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:377][121]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:479][122]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:479][122]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:482][122]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:568][123]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:568][123]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:571][123]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:666][124]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:666][124]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:667][124]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:667][124]LogBlueprintUserMessages: Client 1: 25
+[2014.11.12-22.32.12:668][124]LogBlueprintUserMessages: Client 1: NO LONGER RECORDING
+[2014.11.12-22.32.12:761][125]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:761][125]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:767][125]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:856][126]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:856][126]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:857][126]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.12:961][127]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:961][127]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.12:965][127]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:051][128]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:051][128]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:053][128]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:147][129]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:147][129]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:149][129]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:239][130]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:240][130]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:245][130]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:334][131]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:335][131]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:336][131]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:436][132]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:436][132]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:440][132]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:527][133]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:527][133]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:530][133]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:531][133]LogBlueprintUserMessages: Client 1: 34
+[2014.11.12-22.32.13:531][133]LogBlueprintUserMessages: Client 1: NO LONGER RECORDING
+[2014.11.12-22.32.13:625][134]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:625][134]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:627][134]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:720][135]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:721][135]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:725][135]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:725][135]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:814][136]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:814][136]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:816][136]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:816][136]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:916][137]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:917][137]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.13:920][137]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.13:921][137]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:007][138]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:007][138]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:009][138]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:009][138]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:103][139]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:103][139]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:105][139]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:105][139]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:200][140]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:200][140]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:202][140]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:203][140]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:299][141]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:299][141]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:300][141]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:301][141]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:396][142]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:397][142]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:401][142]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:401][142]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:487][143]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:487][143]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:488][143]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:489][143]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:584][144]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:584][144]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:586][144]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:586][144]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:680][145]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:681][145]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:682][145]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:682][145]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:775][146]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:775][146]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:777][146]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:777][146]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:906][147]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:906][147]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:909][147]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:909][147]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:976][148]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:976][148]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.14:977][148]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.14:977][148]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:074][149]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:074][149]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:077][149]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:078][149]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:170][150]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:170][150]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:172][150]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:172][150]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:263][151]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:263][151]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:265][151]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:265][151]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:359][152]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:359][152]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:362][152]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:363][152]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:458][153]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:458][153]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:459][153]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:459][153]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:554][154]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:554][154]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:556][154]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:556][154]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:652][155]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:652][155]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:658][155]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:658][155]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:745][156]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:745][156]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:746][156]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:747][156]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:839][157]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:840][157]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:841][157]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:841][157]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:938][158]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:938][158]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.15:939][158]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.15:940][158]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.16:035][159]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.16:036][159]LogBlueprintUserMessages: Server: Done with first array
+[2014.11.12-22.32.16:037][159]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.16:037][159]LogBlueprintUserMessages: Client 1: Done with first array
+[2014.11.12-22.32.16:319][160]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.11.12-22.32.16:319][160]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:50613, Time: 2014.11.12-22.32.16
+[2014.11.12-22.32.16:319][160]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2014.11.12-22.32.16:319][160]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.11.12-22.32.16:319][160]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2014.11.12-22.32.16
+[2014.11.12-22.32.16:319][160]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2014.11.12-22.32.16:321][160]LogExit: GameNetDriver None shut down
+[2014.11.12-22.32.16:321][160]LogExit: GameNetDriver None shut down
+[2014.11.12-22.32.16:321][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B556200
+[2014.11.12-22.32.16:383][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000203684A0
+[2014.11.12-22.32.36:045][403]LogSavePackage: Save=3202.584473ms
+[2014.11.12-22.32.36:071][403]LogSavePackage: Moving '../../../../../../Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Saved/MyCharacterDD7546AE42CE2F31B7F3C38C63EE9F35.tmp' to '../../../../../../Users/John/Desktop/Engines and Game Dev Stuff/GITHUB/TimeCop2ElectricBoogalo/Assets/StoreDataBlueprint 4.5/Content/Blueprints/MyCharacter.uasset'
+[2014.11.12-22.32.47:049][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.12-22.32.47:085][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000242C8400
+[2014.11.12-22.32.48:067][585]Cmd: QUIT_EDITOR
+[2014.11.12-22.32.48:545][585]LogExit: Preparing to exit.
+[2014.11.12-22.32.49:177][585]LogExit: Editor shut down
+[2014.11.12-22.32.49:178][585]LogExit: Transaction tracking system shut down
+[2014.11.12-22.32.49:180][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012D11440
+[2014.11.12-22.32.49:180][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012114860
+[2014.11.12-22.32.49:312][585]LogExit: Object subsystem successfully closed.
+[2014.11.12-22.32.49:372][585]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2014.11.12-22.32.49:373][585]LogModuleManager: Shutting down and abandoning module CrashTracker (166)
+[2014.11.12-22.32.49:373][585]LogModuleManager: Shutting down and abandoning module SuperSearch (165)
+[2014.11.12-22.32.49:373][585]LogModuleManager: Shutting down and abandoning module WorldBrowser (164)
+[2014.11.12-22.32.49:373][585]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.11.12-22.32.49:373][585]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.11.12-22.32.49:373][585]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.11.12-22.32.49:374][585]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.11.12-22.32.49:375][585]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.11.12-22.32.49:376][585]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.11.12-22.32.49:539][585]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.11.12-22.32.49:540][585]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.11.12-22.32.49:764][585]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.11.12-22.32.49:765][585]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.11.12-22.32.49:768][585]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.11.12-22.32.49:868][585]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.11.12-22.32.49:868][585]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.11.12-22.32.49:870][585]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.11.12-22.32.49:870][585]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.11.12-22.32.49:871][585]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.11.12-22.32.49:873][585]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.11.12-22.32.49:925][585]LogDerivedDataCache: Shutdown
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.12-22.32.49:925][585]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.12-22.32.49:926][585]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.12-22.32.49:931][585]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.12-22.32.49:932][585]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.12-22.32.49:932][585]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.12-22.32.49:932][585]LogExit: Exiting.
+[2014.11.12-22.32.49:952][585]Log file closed, 11/12/14 17:32:49
